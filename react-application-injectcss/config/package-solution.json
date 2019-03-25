@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-application-injectcss-client-side-solution",
+    "id": "b2322574-549b-4510-99d8-1351d9457a97",
+    "version": "1.2.1.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "features": [
+      {
+        "title": "Inject CSS Application Extension",
+        "description": "Injects custom CSS to make minor style modifications to SharePoint Online",
+        "id": "fcea9230-7f22-45b7-815c-081a49474611",
+        "version": "1.1.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-application-injectcss.sppkg"
+  }
+}
